@@ -1,4 +1,3 @@
-const h1 = document.createElement("h1");
-h1.innerHTML = "Hello world!";
+const helloWorld = require("./helloWorld");
 
-document.body.appendChild(h1);
+helloWorld.printHelloWorld();
